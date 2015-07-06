@@ -14,6 +14,10 @@
 		6C0421D61B44157600516BD2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0421D41B44157600516BD2 /* LaunchScreen.xib */; };
 		6C0421E21B44157600516BD2 /* QMCustomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0421E11B44157600516BD2 /* QMCustomsTests.swift */; };
 		CD57C33705F4A2508D471446 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BEB8722734919579EF90BB /* libPods.a */; };
+		FF37473D1B4A15E800DDFEFA /* SubTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF37473C1B4A15E800DDFEFA /* SubTableViewController.swift */; };
+		FF37473F1B4A162800DDFEFA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF37473E1B4A162800DDFEFA /* DetailsViewController.swift */; };
+		FF3747411B4A16D600DDFEFA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3747401B4A16D600DDFEFA /* Service.swift */; };
+		FF3747431B4A16E200DDFEFA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3747421B4A16E200DDFEFA /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,11 @@
 		6C0421E11B44157600516BD2 /* QMCustomsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QMCustomsTests.swift; sourceTree = "<group>"; };
 		6C091C9E1B441D8D00DECCBA /* QMCustoms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QMCustoms-Bridging-Header.h"; sourceTree = "<group>"; };
 		75BEB8722734919579EF90BB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF37473C1B4A15E800DDFEFA /* SubTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubTableViewController.swift; sourceTree = "<group>"; };
+		FF37473E1B4A162800DDFEFA /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FF3747401B4A16D600DDFEFA /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		FF3747421B4A16E200DDFEFA /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FF3747441B4A1A9500DDFEFA /* QiMENG.QMSync.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = QiMENG.QMSync.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +95,13 @@
 			isa = PBXGroup;
 			children = (
 				6C091C9E1B441D8D00DECCBA /* QMCustoms-Bridging-Header.h */,
+				FF3747441B4A1A9500DDFEFA /* QiMENG.QMSync.db */,
+				FF3747401B4A16D600DDFEFA /* Service.swift */,
+				FF3747421B4A16E200DDFEFA /* Model.swift */,
 				6C0421CB1B44157600516BD2 /* AppDelegate.swift */,
 				6C0421CD1B44157600516BD2 /* ViewController.swift */,
+				FF37473C1B4A15E800DDFEFA /* SubTableViewController.swift */,
+				FF37473E1B4A162800DDFEFA /* DetailsViewController.swift */,
 				6C0421CF1B44157600516BD2 /* Main.storyboard */,
 				6C0421D21B44157600516BD2 /* Images.xcassets */,
 				6C0421D41B44157600516BD2 /* LaunchScreen.xib */,
@@ -274,7 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C0421CE1B44157600516BD2 /* ViewController.swift in Sources */,
+				FF37473D1B4A15E800DDFEFA /* SubTableViewController.swift in Sources */,
+				FF3747411B4A16D600DDFEFA /* Service.swift in Sources */,
+				FF3747431B4A16E200DDFEFA /* Model.swift in Sources */,
 				6C0421CC1B44157600516BD2 /* AppDelegate.swift in Sources */,
+				FF37473F1B4A162800DDFEFA /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
