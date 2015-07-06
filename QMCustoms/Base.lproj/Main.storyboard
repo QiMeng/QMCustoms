@@ -129,6 +129,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ara-fv-Ldb"/>
+                    <connections>
+                        <outlet property="contentLabel" destination="Asr-AI-MWV" id="nxT-jE-etU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jEL-al-yDS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

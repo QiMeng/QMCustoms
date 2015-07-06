@@ -9,14 +9,14 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
-
     
+    var selectModel:Model!
     
+    @IBOutlet weak var contentLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        contentLabel.text = selectModel.info
     }
 
     override func didReceiveMemoryWarning() {

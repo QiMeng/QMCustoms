@@ -13,6 +13,7 @@ class Model: NSObject {
     var href:String?
     var title:String?
     var parent:String?
+    var info:String?
     
     init(aHref:String, aTitle:String, aParent:String) {
         href = aHref
